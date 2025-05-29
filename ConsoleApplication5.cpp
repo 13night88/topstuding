@@ -42,7 +42,7 @@ void main() {
     Persona1.Console(Persona1.ParsedData(18, "Jessica", false));//comment
 
     Persona Persona2;
-    Persona1.Console(Persona1.ParsedData(18, "John", true));
+    Persona1.Console(Persona1.ParsedData(18, "John", true));//coment2
     Persona Persona3;
     Persona1.Console(Persona1.ParsedData(18, "Lev", true));
     Persona Persona4;
