@@ -51,7 +51,7 @@ void main() {
 
     Persona1.Console(Persona1.ParsedData(18, "Lev", true));
     Persona Persona4;
-    Persona1.Console(Persona1.ParsedData(18, "Jager", true))
+    Persona1.Console(Persona1.ParsedData(18, "Jager", true));
 
     PersonalData pesonalData = Persona1.ParsedData(13.9, "Jager", true);
     PersonalData pesonalData2 = Persona2.ParsedData(18, "Jager2", true);
