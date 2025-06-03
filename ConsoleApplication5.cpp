@@ -39,7 +39,7 @@ class Persona {
 void main() {
 
     Persona Persona1;
-    Persona1.Console(Persona1.ParsedData(18, "Jessica", false));//OOP
+    Persona1.Console(Persona1.ParsedData(18, "Jessica", false));//skdjfksdjflksjdkfslkf
 
     Persona Persona2;
     Persona1.Console(Persona1.ParsedData(18, "Donut", true));//OP
