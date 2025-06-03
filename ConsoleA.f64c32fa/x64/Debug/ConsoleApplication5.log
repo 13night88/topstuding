@@ -1,4 +1,5 @@
 ﻿  ConsoleApplication5.cpp
-C:\Users\Admin\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(39,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
-C:\Users\Admin\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(51,52): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
+C:\Users\Admin\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(34,8): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Admin\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(72,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\Admin\source\repos\ConsoleApplication5\ConsoleApplication5.cpp(85,52): warning C4244: аргумент: преобразование "double" в "int", возможна потеря данных
   ConsoleApplication5.vcxproj -> C:\Users\Admin\source\repos\ConsoleApplication5\x64\Debug\ConsoleApplication5.exe

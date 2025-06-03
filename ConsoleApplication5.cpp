@@ -1,5 +1,11 @@
 ﻿#include <iostream>
 #include <string>
+#define Array_Min 50
+#define Array_Max 100   
+const int ARRAY_MIN = 150;
+#define STROKA "First Line\n"\
+ "Second\n"
+
 
 using namespace std;
 
@@ -11,20 +17,50 @@ struct PersonalData {
 
 class Persona {
 
+#define begin {
+#define end }
+
+
+
+
+
+
     public:
  
         Persona() {
 
         }
+#ifdef STROKA
+
+#endif
+
+#undef begin {
 
         void Console(PersonalData message) {
+
+
             //cout << "message2: " << message << endl;
             cout << "message1: " << message.name << endl;
             cout << "message1: " << message.age << endl;
             cout << "message1: " << message.isMale << endl;
+            cout << "message1: " << ARRAY_MIN << endl;
+            cout << "message1: " << Array_Max << endl;
+            cout << STROKA ;
+
+        end
+
+        void Summ(int sum) {
+
+            const int ARRAY_LENGHT = 50;
+
+
+
+
         }
 
-        PersonalData ParsedData(int age, string name, bool isMale) {
+        
+            PersonalData ParsedData(int age, string name, bool isMale) {
+        
 
             PersonalData result;
 
@@ -32,7 +68,7 @@ class Persona {
             result.name = name;
             result.isMale = isMale;
             return result;
-        }
+        end
 
 };
 
@@ -44,14 +80,10 @@ void main() {
     Persona Persona2;
     Persona1.Console(Persona1.ParsedData(18, "Donut", true));//OP
     Persona Persona3;
-    Persona1.Console(Persona1.ParsedData(18, "Lev", true));
+    Persona1.Console(Persona1.ParsedData(13, "Lev", true));
     Persona Persona4;
     Persona1.Console(Persona1.ParsedData(18, "Jager", true));
 
-
-    Persona1.Console(Persona1.ParsedData(18, "Lev", true));
-    Persona Persona4;
-    Persona1.Console(Persona1.ParsedData(18, "Jager", true));
 
     PersonalData pesonalData = Persona1.ParsedData(13.9, "Jager", true);
     PersonalData pesonalData2 = Persona2.ParsedData(18, "Jager2", true);
@@ -65,9 +97,6 @@ void main() {
 
     int summAge = pesonalData.age + pesonalData2.age;
     cout << "hi: ", typeid(summAge);
-
-
-
 
 }
 
